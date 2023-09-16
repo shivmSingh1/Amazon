@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* position:fixed; */
+    width: 100vw;
+    /* height: 10vh;  */
+    padding: 10px 0px;
+    background-color: #0F1111;
+    display: flex;
+    /* align-items:flex-start; */
+    justify-content: center;
+}
+#nav-log-add{
+    display: flex;
+}
+body{
+    /* position:sticky */
+    
+}
+
+nav {
+    background-color: #0F1111;
+    /* background-color: red; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.nav-items {
+    color: white;
+    padding: 10px 16px;
+}
+
+/* .nav-items:hover{
+    padding: 10px 38px;
+    border: 2px solid white;
+} */
+.nav-items button {
+    background-color: white;
+}
+
+.logo {
+    padding: 10px 30px 0px 0px;
+}
+
+.search button {
+    padding: 0px 20px;
+    height: 5vh;
+    border: none;
+    cursor: pointer;
+    background-color: #FEBD69;
+}
+
+.search input {
+    padding: 0px 0px 0px 1vw;
+    height: 5vh;
+    width: 38vw;
+    border: none;
+
+}
+
+.address a {
+    text-decoration: none;
+    color: white;
+}
+
+.account a {
+    text-decoration: none;
+    color: white;
+}
+
+.Return a {
+    text-decoration: none;
+    color: white;
+}
+
+.cart a {
+    text-decoration: none;
+    color: white;
+}
+
+.panel {
+    padding: 1vh 0vh 0vh 0vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* height: 6vh; */
+    /* display:inline-block; */
+    background-color: #222f3d;
+}
+
+.panel-contents {
+    /* background-color: blue; */
+    display: inline-flex;
+}
+
+.p-content {
+    color: white;
+    padding: 0px 15px;
+}
+
+.p-content a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    margin: 0vh 0vh 0vh 0vh;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: calc(100vh- 6vh- 15vh); */
+}
+
+.slider {
+    /* background-size: contain; */
+    width: 100vw;
+    height: 40vh;
+    background-image: url(slider4.jpg);
+    background-size: cover;
+}
+
+.card {
+    display: inline-flex;
+    /* flex-direction: column; */
+    width: 100vw;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* background-color: chartreuse; */
+}
+
+.cards {
+    margin: 10px;
+    display: inline-flex;
+    /* align-content:flex-start; */
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    height: 385px;
+    width: 316.5px;
+    background-color: white;
+    overflow: hidden;
+    /* padding: 5px 20px; */
+    flex-wrap: wrap;
+}
+.card-h-text{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cards-item {
+    margin: 10px 10px;
+    /* background-color:aqua; */
+    /* width: 132.333px; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* display: flex; */
+    overflow: hidden;
+}
+
+.below-cards-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    /* background-color: lemonchiffon; */
+    /* width: 17vw; */
+    overflow: hidden;
+}
+
+.items {
+    overflow: hidden;
+    width: 116.3px;
+    height: 102.2px;
+}
+
+.cards-item p a {
+    text-decoration: none;
+}
+
+.more-options {
+    display: flex;
+    flex-direction: row;
+}
+
+.options {
+    width: 60px;
+    height: 63px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .options a img{
+    width: 36px;
+    height: 55px;
+} */
+.groceries {
+    width: 95vw;
+    padding: 10px;
+    /* height: 230px; */
+    background-color: white;
+    /* overflow: scroll; */
+    /* display:flex; */
+}
+
+.groceries-card {
+    display: flex;
+    overflow: scroll;
+}
+
+.groceries-items {
+    padding: 10px;
+    /* overflow: scroll; */
+    /* display: inline; */
+    /* flex-direction: row; */
+}
+
+footer {
+    color: white;
+    /* height: 15vh; */
+    padding: 20px 0px;
+    display: flex;
+    background-color: #0F1111;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    /* height: 20vh; */
+    padding: 20px 0px;
+    width: 100vw;
+    display: flex;
+    /* justify-content: center; */
+    background-color: #131A22;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 7vw;
+}
+
+.logo2 {
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo2 img {
+    margin: 0px 50px 0px 0px;
+    width: 70px;
+}
+
+.logo2 #lang {
+    margin: 0px 0px 0px 50px;
+}
+
+.logo2 select {
+    border: none;
+    background-color: white;
+    width: 70px;
+    padding: 4px 1vw;
+}
+
+.country {
+    /* height: 20px; */
+}
+
+.country ul {
+    /* text-decoration: none; */
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.country ul li {
+    margin: 5px 10px;
+}
+
+.country ul li a {
+    color: white;
+    text-decoration: none;
+}
+.cards-item p a{
+    color:black;
+}
